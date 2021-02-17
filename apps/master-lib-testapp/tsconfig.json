@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "types": ["node", "jest"],
+    "paths": {
+      "@master": [
+        "libs/master-lib/src/index.ts"
+      ]
+    }
+  }
+}

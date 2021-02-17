@@ -21,5 +21,25 @@
       }
     }
   },
-  "projects": {}
+  "projects": {
+    "master-lib": {
+      "tags": []
+    },
+    "lib1": {
+      "tags": []
+    },
+    "lib2": {
+      "tags": []
+    },
+    "shared": {
+      "tags": []
+    },
+    "master-lib-testapp": {
+      "tags": []
+    },
+    "master-lib-testapp-e2e": {
+      "tags": [],
+      "implicitDependencies": ["master-lib-testapp"]
+    }
+  }
 }
